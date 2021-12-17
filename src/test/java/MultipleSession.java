@@ -37,4 +37,9 @@ public class MultipleSession {
         driver.findElement(By.name("uid")).sendKeys("Driver 3");
 
     }
+    @Test
+    public void executeSessionFour() {
+        System.out.println("new update");
+    }
+
 }
